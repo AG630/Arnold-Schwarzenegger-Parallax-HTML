@@ -1,4 +1,4 @@
-# *A tribute Parallax to Arnold Schwarzenegger* - A User Centric Fronend project
+# *A tribute Parallax to Arnold Schwarzenegger* - A User Centric Frontend project
 ## **Introduction** ## 
 
 
