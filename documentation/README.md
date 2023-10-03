@@ -15,7 +15,7 @@ Thank you for viewing the website I have coded, I hope you enjoy reading it and 
 --
 
 
-## ** The Planning ** ##
+## **The Planning** ##
 
 What was the goal here with this project?
 
@@ -27,7 +27,7 @@ What to include in the project?
 
 - The purpose of the site: to include information about my chosen individual's life, accomplishments, and other things. In addition to this purpose, I wanted the website to feel 'unique' and creative, by maximising CSS capabailities.
 
-## ** The Different Sections of the parallax ** ##
+## **The Different Sections of the parallax** ##
 
 Homepage
 
@@ -46,12 +46,12 @@ Early Life, Body builder, Business man and Actor
 - As for creative capailities, I wanted to include an interactive experience for the users. But I wanted to create something that included different animations witin each section.
 - This took some time to look through various CSS sections on the course and also online.
 
-## ** Parallax ** ##
+## **Parallax** ##
 - Coding the parallax, and the subsequent sections was relatively straight forward. I had to use CSS to set the display to flex and the flex-direction to column. 
 - To create the buffers, I needed to create a white coloured background that included 100% width and a short height too. This was the most straight forward part as the CSS code applied to each buffer, and I didn't need to recreate new rules each time I added in a buffer section.
 - Aligning the text boxes, words and additional bits was the trickiest part. The Hompage button needed to be in the top left of the website, no matter what size-screen the user views it on. Parallax pages tend to have their text aligning centrally. As the information is important for users to read, the changes in background images, and hovering effects needed to be there as well.
 
-## ** Font Choice and style ** ##
+## **Font Choice and style** ##
 - I found the font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;.
 
 This particular font looks bold and strong, and I felt that this reflected the topic of a champion bodybuilder.
@@ -60,7 +60,7 @@ The homepage has a selected them of white, red and black for continuity and dyna
 
 When choosing the font of the main informational-text throughout the paralllax, I was deciding on other fonts. Upon researching Parallax pages, I noticed that the size and alignment of text changes a lot throughout the scroll, but the fonts were mainly the same.
 
-## ** Image Selection ** ##
+## **Image Selection** ##
 
 The images I chose to go with the theme of each section of the parallax varies mostly in timeline and relevancy.
 
@@ -72,7 +72,7 @@ It was tough to find images of Arnold and Franco Columbo as Brick layers. There 
 
 Arnold's acting career was a huge one, and selecting dynamic and powerful images were what I was going for in this section. He had a macho-man persona before turning to comedy, and so I wanted to include images of that on screen 'action-man'. As the parallax scrolls, the images become higher in quality, and more recent in chronological order, which was my aim.
 
-## ** Issues, bugs and testing ** ## 
+## **Issues, bugs and testing** ## 
 
 The part I enjoyed the least about my project, testing the kinks and fixing the bugs!
 
@@ -82,7 +82,7 @@ After testomg the code and correcting the bugs, I was able to correct the mistak
 
 Least to say, there were quite a few errors in my code. A common theme throughout my code, was using the <a> element throughout where I shouldn't have.
 
-## ** Installation ** ##
+## **Installation** ##
 
 To code my project, I decided to use Microsoft Visual Code Studio. I downloaded the latest version of VCS from a quick Google search, but this I soon realised that this wasn't the end...
 
@@ -93,7 +93,7 @@ I had to use Youtube - (https://www.youtube.com/watch?v=5deeCvboSos&ab_channel=S
 
 
 
-## ** Technologies uses ** ##
+## **Technologies uses** ##
 
 [HTML]
 
