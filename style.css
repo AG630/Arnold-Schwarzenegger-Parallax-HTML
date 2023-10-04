@@ -1,0 +1,421 @@
+/*------------------------------ Start Parallax, Main Landing Page of the website. The .parallax-container class is used to style a container element that will have the parallax effect.
+ It sets the display to flex, sets the minimum height to 120vh (viewport height), and aligns the items and justifies the content to the center.
+ It also sets the background image, position, size, and colour.  --*/
+
+.parallax-container{
+  display: flex;
+  min-height: 120vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/03/Arnold-Schwarzenegger%E2%80%99s-11-Best-Action-Movies.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+  text-align: center;
+}
+
+/*------------------------- Design concept and styling for the Parallax, credit due to https://blog.logrocket.com/create-parallax-scrolling-css/ ----*/
+
+  .main-heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 100px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+    }
+  .main-heading span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+/*------------------------------ Homepage button, which is positioned as 'Fixed', so that users can reference the homepage at any point. .homepage class is used to style the homepage button.
+ It sets the font family, color, box shadow, background, background size, outline offset, transition, font size, text shadow, letter spacing, text transform, border, and position. ---------*/
+
+  .homepage{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    --c:  rgba(255, 0, 98, 0.603) ; /* the color*/
+  
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%, var(--_g) 
+    calc(200% - var(--_p,0%)) 0%, var(--_g) calc(var(--_p,0%) - 100%) 
+    100%, var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 60.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+    font-size: 25px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 3px solid white;
+    position:fixed;
+    right: 85%;
+    top: 10%;
+      
+  }    
+
+  
+  .homepage:hover{
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s; 
+  }
+
+  /*------------- .homepage:active class is used to style the homepage button when it is active (clicked). It sets the box shadow, background color, and color. ---------*/
+
+  .homepage:active{
+      box-shadow: 0 0 9e9q inset #0009; 
+      background-color: var(--c);
+      color: #fff;
+  }
+  
+  /*------------------------------ Credit to Temani Afi https://freefrontend.com/css-buttons/ for the CSS style of the Homepage button, the background fills from the boarder edges --*/
+
+
+/*------------------------------ Start Navbar --*/
+  .navigation{
+		width: 50%;
+		height: 55px;
+    display: flex;
+    min-height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+ 
+  .ul-nav {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		margin-top: 5px;
+	}
+	
+	.li-nav {
+  float: right;
+  padding-right: 50px;
+  }
+
+  
+/*------------------------------ Nav buttons that transition from a white background to transparent --*/
+
+
+  .actor-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        
+  }
+  .actor-link:hover{
+    transition: 0.6s;
+    background: 50px; 
+  }
+
+  .early-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .early-link:hover{
+    transition: 0.6s;
+    background: 50px; 
+      
+  }
+  .business-man{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+    .business-man:hover{
+      transition: 0.6s;
+      background: 50px; 
+        
+    }    
+  
+  .bodybuilder-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+  }
+  .bodybuilder-link:hover{
+    transition: 0.6s;
+    background: 50px; 
+      
+  }
+
+  .contact-us-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 35px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .contact-us-link:hover{
+    transition: 0.6s;
+    background: 50px; 
+  }
+
+/*------------------------------ End Navbar --*/
+
+/*------------------------------ Buffer section, credit to https://blog.logrocket.com/create-parallax-scrolling-css/--*/ 
+  .buffer {
+    width: 100%;
+    min-height: 10vh;
+    background-color: var(--color);
+  }
+/*------------------------------ End First Buffer section --*/
+
+
+/*------------------------------ Start of Early Life information page --*/
+
+  .parallax-container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 120vh;  
+    padding: 6rem 0;
+    background-image: url(http://img.izismile.com/img/img8/20160311/640/arnold_schwarzeneggers_life_in_pictures_from_early_childhood_to_this_day_640_04.jpg);
+    background-position: center;
+    background-size: cover;
+    gap: 1.6em;
+  }
+ /*------------------------------ Hover function to change the background photo showing to images of Arnold for readers --*/
+  .parallax-container2:hover{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-dd7829f0b6aed664012fbe8e4fbf086d-lq);
+    transition: 0.6s;
+  }
+
+  .box{
+    border: 3px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    }
+
+    /*------------------------------ Hover function, Demonstrating some creative CSS capabilities and informative piece about Arnold's Childhood --*/
+  .box:hover{
+    transition: 0.8s;
+    color: white;
+    background-color: black;
+ 
+  }
+    /*------------------------------ End of Early Life information page --*/
+
+
+    /*------------------------------ Start of Body Builder information page --*/
+    
+    .parallax-container3 {
+      flex-direction: row;
+      flex-wrap: wrap;
+      min-height: 120vh;    
+      padding: 6rem 0;
+      background-image: url(https://cdn.sportsmanor.com/wp-content/uploads/2023/01/29105214/Untitled-design-6-2-1140x597.jpg);
+      gap: 1.6em;
+    }
+
+    .parallax-container3:hover{
+      background-image: url(https://www.greatestphysiques.com/wp-content/uploads/2016/09/arnold-blueprint-cut-vision-graphics-2.jpg);
+      transition: 0.6s;
+              
+    }
+
+    .box-2{
+      border: 3px solid whitesmoke;
+      display: flex;
+      flex-direction: column;
+      max-width: 550px;
+      align-items: center;
+      padding-bottom: 1rem;
+      border-radius: 0.5em;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      }
+
+      .box-2:hover{
+        transition: 0.8s;
+        animation-name: example;
+        animation-duration: 20s;
+}
+
+@keyframes example {
+  from {transform: scale(1);}
+  to {transform: scale(1.2);}
+}
+
+      /*------------------------------ End of Body Builder information page --*/
+
+      /*------------------------------ Start of Business man information page --*/
+
+    .parallax-container4 {
+      flex-direction: row;
+      flex-wrap: wrap;
+      min-height: 120vh;    
+      padding: 6rem 0;
+      background-image: url(https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2019/09/01/20f580d2-cbd0-11e9-b4e3-f796e392de6b_image_hires_152941.jpg?itok=ps14EGaU&v=1567322986);
+      gap: 1.6em;
+    }
+    .parallax-container4:hover{
+      background-image: url(https://static01.nyt.com/images/2019/09/03/sports/02COLUMBU-sub/02COLUMBU-sub-superJumbo.jpg);
+      transition: 0.7s;
+      
+      
+    }
+    .box-3 {
+      border: 3px solid whitesmoke;
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      align-items: center;
+      padding-bottom: 1rem;
+      border-radius: 0.5em;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+    }
+    
+    .box-3:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 25px;
+    }
+    
+    .box-3:hover::before {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: -3px;
+        right: -3px;
+        bottom: -3px;
+        z-index: -1;
+        opacity: -1.5;
+        background-color: black;
+        border-radius: inherit;
+    }
+      
+
+/*------------------------------ End of Business man information page --*/
+
+/*------------------------------ Start of Actor information page --*/
+
+
+    .parallax-container5 {
+      flex-direction: row;
+      flex-wrap: wrap;
+      min-height: 120vh;   
+      padding: 6rem 0;
+      background-image: url(https://variety.com/wp-content/uploads/2022/07/M8DPRED_FE010.jpg?w=800);
+      gap: 1.6em;
+    }
+
+    .parallax-container5:hover{
+      background-image: url(https://www.syfy.com/sites/syfy/files/styles/hero-image--large--computer--alt-1_5x/public/2020/06/arnold-best-scifi-roles.jpg?h=a88a9c93);
+      transition: 0.7s;
+    }
+    .box-4 {
+      border: 3px solid whitesmoke;
+      display: flex;
+      flex-direction: column;
+      max-width: 650px;
+      align-items: center;
+      padding-bottom: 1rem;
+      border-radius: 0.5em;
+      background-color: white;
+      margin: 0;
+      padding: 0;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+    }
+    
+    .box-4:hover {
+      
+      /* Add glow animation */
+      
+      box-shadow: 0px 0px 10px #fff;
+      animation-name: glow;
+      animation-duration: .5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite; 
+    }
+    
+    @keyframes glow {
+      from {
+        box-shadow: none;
+      }
+      to {
+        box-shadow: 0px 0px 20px #fff;
+      }
+    }
+
+      /*------------------------------ End of Actor information page --*/
+
+      /*------------------------------ Start of Contact us page --*/
+
+      .parallax-container6{
+        display: flex;
+        min-height: 120vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+        background-image: url(https://w0.peakpx.com/wallpaper/812/424/HD-wallpaper-terminator-i-ll-be-back-text-terminator-arnold-schwarzenegger-graphics-typography-vector-vintage.jpg);
+        background-position: auto;
+        background-size: contain;
+        color: var(--color);
+        row-gap: 4rem;
+        text-align: center;
+        gap: 1.6em;
+      }
+
+      .box-5{
+        border: 3px solid whitesmoke;
+        display: flex;
+        flex-direction: column;
+        max-width: 650px;
+        align-items: left;
+        padding-bottom: 1rem;
+        border-radius: 0.5em;
+        background-color: rgb(66, 61, 61);
+        margin: 6;
+        padding: 2;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: crimson;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+      /*------------------------------ End of Contact us page --*/
+
+
+     
+
+
+
+
+
+
+  
+  
+
+ 
+    
