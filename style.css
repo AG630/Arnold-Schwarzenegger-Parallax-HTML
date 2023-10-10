@@ -4,8 +4,8 @@
 
 .parallax-container{
   display: flex;
-  min-height: 120vh; 
   flex-direction: column;
+  min-height: 120vh; 
   align-items: center;
   justify-content: center;
   background-attachment: fixed;
@@ -55,11 +55,9 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     border: 3px solid white;
-    position:fixed;
-    right: 85%;
-    top: 10%;
-      
-  }    
+    justify-content: center;
+    align-items: center;
+}    
 
   
   .homepage:hover{
@@ -224,12 +222,12 @@
     /*------------------------------ Start of Body Builder information page --*/
     
     .parallax-container3 {
-      flex-direction: row;
-      flex-wrap: wrap;
-      min-height: 120vh;    
+       min-height: 120vh;    
       padding: 6rem 0;
       background-image: url(https://cdn.sportsmanor.com/wp-content/uploads/2023/01/29105214/Untitled-design-6-2-1140x597.jpg);
       gap: 1.6em;
+      display: flex;
+      flex-direction: column;
     }
 
     .parallax-container3:hover{
@@ -269,8 +267,8 @@
       /*------------------------------ Start of Business man information page --*/
 
     .parallax-container4 {
-      flex-direction: row;
-      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
       min-height: 120vh;    
       padding: 6rem 0;
       background-image: url(https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2019/09/01/20f580d2-cbd0-11e9-b4e3-f796e392de6b_image_hires_152941.jpg?itok=ps14EGaU&v=1567322986);
@@ -321,8 +319,8 @@
 
 
     .parallax-container5 {
-      flex-direction: row;
-      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
       min-height: 120vh;   
       padding: 6rem 0;
       background-image: url(https://variety.com/wp-content/uploads/2022/07/M8DPRED_FE010.jpg?w=800);
@@ -374,7 +372,6 @@
 
       .parallax-container6{
         display: flex;
-        min-height: 120vh;
         flex-direction: column;
         align-items: center;
         justify-content: center;
