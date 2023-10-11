@@ -27,6 +27,30 @@ What to include in the project?
 
 - The purpose of the site: to include information about my chosen individual's life, accomplishments, and other things. In addition to this purpose, I wanted the website to feel 'unique' and creative, by maximising CSS capabailities.
 
+## **Planning the user stories** ##
+
+In order to create a good user story experience, I researched user stories and came across a very useful website with some detailed explanations on user stories in Software development: https://www.netsolutions.com/insights/user-stories-in-agile/. This is an article written by Satinder Singh, who says "that stories are expressed in a simple sentence that outlines the desired outcome of a task."
+
+Following Satinder's advice I had to think about the following:
+
+The User: User refers to the end user of the software. Remember that we’re not just after a name or job title. We need to understand who our customers are and what they truly want. We need to have empathy for them.
+
+(Want to): We’re referring to the intent of end users, not the features they use. We need to specify what they’re trying to achieve with the task, not to mention the UI of the app. Otherwise, you’re missing the point.
+
+(So that): Describes the bigger picture. What’s the end goal users are trying to achieve with the feature?
+
+An example he gives looks something like this: "As a startup owner, I want to organize my work in one place so that I feel more in control.
+
+As an HR professional, I want to understand better my colleagues’ progress so that I report our successes and failures".
+
+Who would be viewing my website? Fans of Arnold Schwarzenegger, or individuals carrying out research on him.
+
+What's the intent of the user? The user aim(s) for this particular website, are to extract information about Arnold Schwarzenegger for research purposes. This aim is met with a fun and interactive website to make the user's intent enjoyable to carry out.
+
+The 'So that' part of this equation is to use the data collected for a project to use and present for a school project, fo example. This could also be for personal pleasure but ultimately the purpose is clear, it's for research purposes.
+
+Put together, the user story my user story for this project looks like this: As a user, I want to understand and research Arnold Schwarzenegger so that I can collect data and present the findings for project purposes.
+
 ## **The Different Sections of the parallax** ##
 
 Homepage
@@ -153,6 +177,8 @@ I had to use Youtube - (https://www.youtube.com/watch?v=5deeCvboSos&ab_channel=S
 (https://www.joeweider.com/photos/joe-and-arnold-2/)
 
 (https://www.interviewmagazine.com/film/obvious-history-arnold-schwarzenegger-made-million-dollars-laying-bricks)
+
+(https://www.netsolutions.com/insights/user-stories-in-agile/)
 
 
 ** Media **
