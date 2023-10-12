@@ -26,6 +26,7 @@ What to include in the project?
 - Knowing that I could create a project with at least 3 seperate areas/pages. I started off by having the brief in-front of me, and creating the different sections of my website.
 
 - The purpose of the site: to include information about my chosen individual's life, accomplishments, and other things. In addition to this purpose, I wanted the website to feel 'unique' and creative, by maximising CSS capabailities.
+- 
 
 ## **Planning the user stories** ##
 
@@ -51,6 +52,20 @@ The 'So that' part of this equation is to use the data collected for a project t
 
 Put together, the user story my user story for this project looks like this: As a user, I want to understand and research Arnold Schwarzenegger so that I can collect data and present the findings for project purposes.
 
+## **User Experience** ##
+
+- The goals for a first time visitor:
+- 
+- First time users should experience an interactive web page that is easy to navigate and has a great aesthetic.
+- 
+- They should easily navigate a web-page with ease and scroll through without difficulty.    
+- 
+- The will be learning more about Arnold Schwarzenegger and taking away more understanding about his life.
+- 
+- As a returning Visitor i want to be able to easily find information that can be passed on again via a project or casual conversation.
+- 
+- As a returning visitor i want to be able to easily find contact information for any queries. 
+- 
 ## **The Different Sections of the parallax** ##
 
 Homepage
