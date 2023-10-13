@@ -39,7 +39,7 @@
 
   .homepage{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #434552;
+    color: #E9EFE7;
     --c:  #B77753;/* the color*/
   
     box-shadow: 0 0 0 .1em inset var(--c); 
@@ -168,6 +168,16 @@
 
 /*------------------------------ End Navbar --*/
 
+.Heading{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #E9EFE7;
+  font-size: 45px;
+  text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
 /*------------------------------ Buffer section, credit to https://blog.logrocket.com/create-parallax-scrolling-css/--*/ 
   .buffer {
     width: 100%;
@@ -187,7 +197,6 @@
     background-image: url(http://img.izismile.com/img/img8/20160311/640/arnold_schwarzeneggers_life_in_pictures_from_early_childhood_to_this_day_640_04.jpg);
     background-position: center;
     background-size: cover;
-    gap: 1.6em;
   }
  /*------------------------------ Hover function to change the background photo showing to images of Arnold for readers --*/
   .parallax-container2:hover{
@@ -207,7 +216,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
     /*------------------------------ Hover function, Demonstrating some creative CSS capabilities and informative piece about Arnold's Childhood --*/
@@ -248,7 +257,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 20px;
+      font-size: 30px;
       }
 
       .box-2:hover{
@@ -292,7 +301,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 20px;
+      font-size: 30px;
     }
     
     .box-3:hover {
@@ -336,6 +345,7 @@
       display: flex;
       flex-direction: column;
       max-width: 650px;
+      s
       align-items: center;
       padding-bottom: 1rem;
       border-radius: 0.5em;
@@ -343,7 +353,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 20px;
+      font-size: 30px;
     }
     
     .box-4:hover {
@@ -386,16 +396,11 @@
       }
 
       .box-5{
-        border: 3px solid whitesmoke;
+        border: 3px solid #E9EFE7;
         display: flex;
         flex-direction: column;
         max-width: 650px;
-        align-items: left;
-        padding-bottom: 1rem;
-        border-radius: 0.5em;
         background-color: #434552;
-        margin: 6;
-        padding: 2;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: #B77753;
         text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
