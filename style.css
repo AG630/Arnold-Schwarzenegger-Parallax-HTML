@@ -12,10 +12,46 @@
   background-image: url(https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/03/Arnold-Schwarzenegger%E2%80%99s-11-Best-Action-Movies.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5);
   background-position: center;
   background-size: cover;
-  color: #E9EFE7;
   text-shadow: 1px #29222c;
   row-gap: 4rem;
   text-align: center;
+}
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+    /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+    /*Small smartphones [325px -> 425px]*/
+}
+
+
+
+.topnav{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  border-color: #67AAF9;
+  border: 5px;
+}
+
+.lower-navbar{
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #E9EFE7;
+  align-items: center;
+}
+small{
+  color: #B77753;
+  font-size: medium;
 }
 
 /*------------------------- Design concept and styling for the Parallax, credit due to https://blog.logrocket.com/create-parallax-scrolling-css/ ----*/
@@ -39,7 +75,7 @@
 
   .homepage{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #E9EFE7;
+    color: #67AAF9;
     --c:  #B77753;/* the color*/
   
     box-shadow: 0 0 0 .1em inset var(--c); 
@@ -49,8 +85,6 @@
     calc(200% - var(--_p,0%)) 0%, var(--_g) calc(var(--_p,0%) - 100%) 
     100%, var(--_g) calc(200% - var(--_p,0%)) 100%;
     background-size: 60.5% calc(var(--_p,0%)/2 + .5%);
-    outline-offset: .1em;
-    transition: background-size .4s, background-position 0s .4s;
     font-size: 25px;
     text-shadow:  1px #29222c;
     letter-spacing: 0.5px;
@@ -58,134 +92,78 @@
     border: 3px solid white;
     justify-content: center;
     align-items: center;
+    float: left;
 }    
 
-  
-  .homepage:hover{
-    --_p: 100%;
-    transition: background-position .4s, background-size 0s; 
-  }
 
-  /*------------- .homepage:active class is used to style the homepage button when it is active (clicked). It sets the box shadow, background color, and color. ---------*/
-
-  .homepage:active{
-      box-shadow: 0 0 9e9q inset #29222c;
-      background-color: var(--c);
-      color: #E9EFE7;
-  }
-  
-  /*------------------------------ Credit to Temani Afi https://freefrontend.com/css-buttons/ for the CSS style of the Homepage button, the background fills from the boarder edges --*/
-
-
-/*------------------------------ Start Navbar --*/
-  .navigation{
-		width: 50%;
-		height: 55px;
-    display: flex;
-    min-height: 40vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
- 
- 
-  .ul-nav {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		position: absolute;
-		margin-top: 5px;
-	}
-	
-	.li-nav {
-  float: right;
-  padding-right: 50px;
-  }
-
-  
-/*------------------------------ Nav buttons that transition from a white background to transparent --*/
-
+.homepage-link{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #E9EFE7;
+  font-size: 35px;
+  text-shadow: #67AAF9;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 5px solid #67AAF9;
+}
+.early-link{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #E9EFE7;
+  font-size: 35px;
+  text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 5px solid #67AAF9;
+}
 
   .actor-link{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E9EFE7;
     font-size: 35px;
     text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
-        
-  }
-  .actor-link:hover{
-    transition: 0.6s;
-    background: 50px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 5px solid #67AAF9;  
   }
 
-  .early-link{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #E9EFE7;
-    font-size: 35px;
-    text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
-  }
-  .early-link:hover{
-    transition: 0.6s;
-    background: 50px; 
-      
-  }
+ 
   .business-man{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E9EFE7;
     font-size: 35px;
     text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 5px solid #67AAF9;
   }
-    .business-man:hover{
-      transition: 0.6s;
-      background: 50px; 
-        
-    }    
+ 
   
   .bodybuilder-link{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E9EFE7;
     font-size: 35px;
     text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
-    
-  }
-  .bodybuilder-link:hover{
-    transition: 0.6s;
-    background: 50px; 
-      
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 5px solid #67AAF9;
   }
 
-  .contact-us-link{
+  /*------------------------------ End Navbar --*/
+
+  .contact{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #E9EFE7;
-    font-size: 35px;
+    font-size: 15px;
     text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
-  }
-  .contact-us-link:hover{
-    transition: 0.6s;
-    background: 50px; 
-  }
+ }
 
-/*------------------------------ End Navbar --*/
+
 
 .Heading{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #E9EFE7;
   font-size: 45px;
   text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
-  margin-top: 0;
-  margin-left: 0;
-  padding: 0;
 }
-
-/*------------------------------ Buffer section, credit to https://blog.logrocket.com/create-parallax-scrolling-css/--*/ 
-  .buffer {
-    width: 100%;
-    min-height: 10vh;
-    background-color: var(--color);
-  }
-/*------------------------------ End First Buffer section --*/
-
 
 /*------------------------------ Start of Early Life information page --*/
 
@@ -205,38 +183,41 @@
   }
 
   .box{
-    border: 3px solid #B77753;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    align-items: center;
-    padding-bottom: 1rem;
-    border-radius: 0.5em;
+    border: 3px solid #67AAF9;
+    flex-direction: row;
     background-color: #434552;
-    margin: 0;
-    padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    color: #B77753;
 }
-
-    /*------------------------------ Hover function, Demonstrating some creative CSS capabilities and informative piece about Arnold's Childhood --*/
-  .box:hover{
-    transition: 0.8s;
-    color: #434552;
-    background-color: #B77753;
+.box-1{
+  border: 3px solid #67AAF9;
+  flex-direction: row;
+  background-color: #434552;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #B77753;
+}  
+.box-2{
+  border: 3px solid #67AAF9;
+  flex-direction: row;
+  background-color: #434552;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #B77753;
 }
-    /*------------------------------ End of Early Life information page --*/
 
 
     /*------------------------------ Start of Body Builder information page --*/
     
     .parallax-container3 {
-       min-height: 120vh;    
+      min-height: 120vh;    
       padding: 6rem 0;
       background-image: url(https://cdn.sportsmanor.com/wp-content/uploads/2023/01/29105214/Untitled-design-6-2-1140x597.jpg);
       gap: 1.6em;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
 }
 
     .parallax-container3:hover{
@@ -245,82 +226,68 @@
               
     }
 
-    .box-2{
-      border: 3px solid #67AAF9;
-      display: flex;
-      flex-direction: column;
-      max-width: 550px;
-      align-items: center;
-      padding-bottom: 1rem;
-      border-radius: 0.5em;
-      background-color: #434552;
-      margin: 0;
-      padding: 0;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 30px;
-      }
-
-      .box-2:hover{
-        transition: 0.8s;
-        animation-name: example;
-        animation-duration: 20s;
+  .box-2{
+    border: 3px solid #67AAF9;
+    flex-direction: row;
+    background-color: #434552;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    color: #B77753;
+}
+.box-2-1{
+  border: 3px solid #67AAF9;
+  flex-direction: row;
+  background-color: #434552;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
+  color: #B77753;
+}
+.box-2-2{
+  border: 3px solid #67AAF9;
+  flex-direction: row;
+  background-color: #434552;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  flex-wrap: wrap;
+  color: #B77753;
 }
 
-@keyframes example {
-  from {transform: scale(1);}
-  to {transform: scale(1.2);}
-}
-
-      /*------------------------------ End of Body Builder information page --*/
-
-      /*------------------------------ Start of Business man information page --*/
-
-    .parallax-container4 {
+    .parallax-container4{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       min-height: 120vh;    
       padding: 6rem 0;
       background-image: url(https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2019/09/01/20f580d2-cbd0-11e9-b4e3-f796e392de6b_image_hires_152941.jpg?itok=ps14EGaU&v=1567322986);
       gap: 1.6em;
+      flex-wrap: wrap;
     }
     .parallax-container4:hover{
       background-image: url(https://static01.nyt.com/images/2019/09/03/sports/02COLUMBU-sub/02COLUMBU-sub-superJumbo.jpg);
       transition: 0.7s;
-      
-      
+            
     }
+
     .box-3 {
-      border: 3px solid whitesmoke;
-      display: flex;
-      flex-direction: column;
-      max-width: 500px;
-      align-items: center;
-      padding-bottom: 1rem;
-      border-radius: 0.5em;
+      border: 3px solid #67AAF9;
+      flex-direction: row;
       background-color: #434552;
-      margin: 0;
-      padding: 0;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 30px;
-    }
-    
-    .box-3:hover {
-      box-shadow: #434552; 0px 15px 25px;
-    }
-    
-    .box-3:hover::before {
-        content: "";
-        position: absolute;
-        top: -3px;
-        left: -3px;
-        right: -3px;
-        bottom: -3px;
-        z-index: -1;
-        opacity: -1.5;
-        background-color: #434552;
-        border-radius: inherit;
-    }
-      
+      font-size: 20px;
+      flex-wrap: wrap;
+      color: #B77753;
+    } 
+
+    .box-3-1 {
+      border: 3px solid #67AAF9;
+      flex-direction: row;
+      background-color: #434552;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      flex-wrap: wrap;
+      color: #B77753;
+    } 
 
 /*------------------------------ End of Business man information page --*/
 
@@ -329,11 +296,12 @@
 
     .parallax-container5 {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       min-height: 120vh;   
       padding: 6rem 0;
       background-image: url(https://variety.com/wp-content/uploads/2022/07/M8DPRED_FE010.jpg?w=800);
       gap: 1.6em;
+      flex-wrap: wrap;
     }
 
     .parallax-container5:hover{
@@ -341,31 +309,32 @@
       transition: 0.7s;
     }
     .box-4 {
-      border: 3px solid whitesmoke;
-      display: flex;
-      flex-direction: column;
-      max-width: 650px;
-      s
-      align-items: center;
-      padding-bottom: 1rem;
-      border-radius: 0.5em;
+      border: 3px solid #67AAF9;
+      flex-direction: row;
       background-color: #434552;
-      margin: 0;
-      padding: 0;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      font-size: 30px;
-    }
-    
-    .box-4:hover {
-      
-      /* Add glow animation */
-      
-      box-shadow: 0px 0px 10px #fff;
-      animation-name: glow;
-      animation-duration: .5s;
-      animation-timing-function: ease-in-out;
-      animation-iteration-count: infinite; 
-    }
+      font-size: 20px;
+      flex-wrap: wrap;
+      color: #B77753;
+    } 
+    .box-4-1 {
+      border: 3px solid #67AAF9;
+      flex-direction: row;
+      background-color: #434552;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      flex-wrap: wrap;
+      color: #B77753;
+    } 
+    .box-4-2 {
+      border: 3px solid #67AAF9;
+      flex-direction: row;
+      background-color: #434552;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      flex-wrap: wrap;
+      color: #B77753;
+    } 
     
     @keyframes glow {
       from {
@@ -378,35 +347,8 @@
 
       /*------------------------------ End of Actor information page --*/
 
-      /*------------------------------ Start of Contact us page --*/
 
-      .parallax-container6{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-attachment: fixed;
-        background-color: #434552;
-        background-position: auto;
-        background-size: contain;
-        color: var(--color);
-        row-gap: 4rem;
-        text-align: center;
-        gap: 1.6em;
-      }
 
-      .box-5{
-        border: 3px solid #E9EFE7;
-        display: flex;
-        flex-direction: column;
-        max-width: 650px;
-        background-color: #434552;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: #B77753;
-        text-shadow: -1px 0 #29222c, 0 1px #29222c, 1px 0 #29222c 0 -1px #29222c;
-        }
-
-      /*------------------------------ End of Contact us page --*/
 
 
      

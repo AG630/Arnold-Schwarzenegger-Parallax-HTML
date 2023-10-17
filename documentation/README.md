@@ -121,6 +121,8 @@ After testomg the code and correcting the bugs, I was able to correct the mistak
 
 Least to say, there were quite a few errors in my code. A common theme throughout my code, was using the <a> element throughout where I shouldn't have.
 
+
+
 ## **Installation** ##
 
 To code my project, I decided to use Microsoft Visual Code Studio. I downloaded the latest version of VCS from a quick Google search, but this I soon realised that this wasn't the end...
