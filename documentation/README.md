@@ -1,4 +1,8 @@
 # *A tribute Parallax to Arnold Schwarzenegger* - A User Centric Frontend project
+[Link to live site here] (https://ag630.github.io/Arnold-Schwarzenegger-Parallax-HTML/ "Link to live site here")
+
+![Am I resonsive image](<../images/Screenshot 2023-10-18 121429.png>)
+
 ## **Introduction** ## 
 
 
@@ -66,7 +70,25 @@ Put together, the user story my user story for this project looks like this: As 
 - 
 - As a returning visitor i want to be able to easily find contact information for any queries. 
 - 
-## **The Different Sections of the parallax** ##
+## Design
+
+![Colour choice] (![Alt text](<../images/Screenshot 2023-10-12 111425.png>))
+
+- I took the colours from the Homepage background image as this image is both epic and very well designed. I decided to include #E9EFE7, #B77753, #2B2D3B, #434552 AND #29222C.
+- 
+- Just to outline some of the combinations, I used the colour accessibility checker and got the follow photos:
+- 
+- ![Colour Accessibility](<../images/Screenshot 2023-10-12 111314.png>)
+- 
+- !(Colour Accessibility) ![Colour Accessibility](<../images/Screenshot 2023-10-12 111337.png>)
+- 
+- ![Colour Accessibility](<../images/Screenshot 2023-10-12 111351.png>)
+- 
+**Images**
+ - The images included feature epic photos of Arnold.
+ 
+ 
+ ## **The Different Sections of the parallax** ##
 
 Homepage
 
