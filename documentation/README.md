@@ -29,7 +29,7 @@ What to include in the project?
 - Knowing that I could create a project with at least 3 seperate areas/pages. I started off by having the brief in-front of me, and creating the different sections of my website.
 
 - The purpose of the site: to include information about my chosen individual's life, accomplishments, and other things. In addition to this purpose, I wanted the website to feel 'unique' and creative, by maximising CSS capabailities.
-- 
+
 
 ## **Planning the user stories** ##
 
@@ -68,7 +68,7 @@ Put together, the user story my user story for this project looks like this: As 
 - As a returning Visitor i want to be able to easily find information that can be passed on again via a project or casual conversation.
 
 - As a returning visitor i want to be able to easily find contact information for any queries. 
-- 
+
 ## Design
 
 [Colour](<../images/Screenshot 2023-10-12 111425.png>)
@@ -77,11 +77,11 @@ Put together, the user story my user story for this project looks like this: As 
 
 - Just to outline some of the combinations, I used the colour accessibility checker and got the follow photos:
 
-[Colour Accessibility](<../images/Screenshot 2023-10-12 111314.png>)
+![Color accessibility](<../images/Screenshot 2023-10-12 111314.png>)
 
-[Colour Accessibility](<../images/Screenshot 2023-10-12 111337.png>)
+![colour accessibility](<../images/Screenshot 2023-10-12 111337.png>)
 
-[Colour Accessibility](<../images/Screenshot 2023-10-12 111351.png>)
+![Colour Accessibility](<../images/Screenshot 2023-10-12 111351.png>)
 
 
 **Images**
