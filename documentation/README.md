@@ -1,7 +1,7 @@
 # *A tribute Parallax to Arnold Schwarzenegger* - A User Centric Frontend project
-[Link to live site here] (https://ag630.github.io/Arnold-Schwarzenegger-Parallax-HTML/ "Link to live site here")
+[Link to live site here] (https://ag630.github.io/Arnold-Schwarzenegger-Parallax-HTML/)
 
-![Am I resonsive image](<../images/Screenshot 2023-10-18 121429.png>)
+![Am I responsive image](<../images/Screenshot 2023-10-18 121429.png>)
 
 ## **Introduction** ## 
 
@@ -16,7 +16,6 @@ This project outlines the various modules and languages I have learned so far wi
 
 Thank you for viewing the website I have coded, I hope you enjoy reading it and interacting with it, as much as I enjoyed creating it!
 
---
 
 
 ## **The Planning** ##
@@ -59,31 +58,32 @@ Put together, the user story my user story for this project looks like this: As 
 ## **User Experience** ##
 
 - The goals for a first time visitor:
-- 
+
 - First time users should experience an interactive web page that is easy to navigate and has a great aesthetic.
-- 
+
 - They should easily navigate a web-page with ease and scroll through without difficulty.    
-- 
+
 - The will be learning more about Arnold Schwarzenegger and taking away more understanding about his life.
-- 
+
 - As a returning Visitor i want to be able to easily find information that can be passed on again via a project or casual conversation.
-- 
+
 - As a returning visitor i want to be able to easily find contact information for any queries. 
 - 
 ## Design
 
-![Colour choice] (![Alt text](<../images/Screenshot 2023-10-12 111425.png>))
+[Colour](<../images/Screenshot 2023-10-12 111425.png>)
 
 - I took the colours from the Homepage background image as this image is both epic and very well designed. I decided to include #E9EFE7, #B77753, #2B2D3B, #434552 AND #29222C.
-- 
+
 - Just to outline some of the combinations, I used the colour accessibility checker and got the follow photos:
-- 
-- ![Colour Accessibility](<../images/Screenshot 2023-10-12 111314.png>)
-- 
-- !(Colour Accessibility) ![Colour Accessibility](<../images/Screenshot 2023-10-12 111337.png>)
-- 
-- ![Colour Accessibility](<../images/Screenshot 2023-10-12 111351.png>)
-- 
+
+[Colour Accessibility](<../images/Screenshot 2023-10-12 111314.png>)
+
+[Colour Accessibility](<../images/Screenshot 2023-10-12 111337.png>)
+
+[Colour Accessibility](<../images/Screenshot 2023-10-12 111351.png>)
+
+
 **Images**
  - The images included feature epic photos of Arnold.
  
@@ -92,15 +92,36 @@ Put together, the user story my user story for this project looks like this: As 
 
 Homepage
 
+![Homepage photo](<Screenshot 2023-10-18 153444.png>)
+
 - I had to think through what I needed to have on the homepage.
 - The users needed to know what the website is about and I was going to achieve this by selecting a font that I thought was user-friendly, readable, and also stands out.
 - I concluded that I needed a navigation bar that could lead me to the various sections of the parallax, as well as an image for the background.
-- As the website is a scrolling one, I planned to include the homepage to be set to 'fixed' so that users could refer to it at any section they wish. I also thought it would demsonstrate additional CSS capabilities to create a 'Homepage' button that was different to the rest of the navigation buttons, inlcuding the animation effects.
+- As the website is a scrolling one, I planned to include the homepage to be set to 'fixed' so that users could refer to it at any section they wish. I also thought it would demonstrate additional CSS capabilities to create a 'Homepage'.
 - Users should be presented with a eye-capturing image that would scroll in accordance with the parallax, but also have some organised and easily accessible buttons to jump to other sections of the website.
-- Users are provided with hovering animations to make the website more interactive
+- Users are provided with hovering animations to make the website more interactive.
 
 
-Early Life, Body builder, Business man and Actor
+Early Life
+
+![Early Life](<Screenshot 2023-10-18 153501.png>)
+
+
+
+Body builder
+
+![Body builder](<Screenshot 2023-10-18 153521.png>)
+
+
+Business man 
+
+![Business man ](<Screenshot 2023-10-18 153548.png>)
+
+
+
+Actor
+
+![Actor](<Screenshot 2023-10-18 153556.png>)
 
 - The user of the website, was going to visit the informational pieces of the website on these subsequent sections.
 - Having read Arnold's auto biogragphy, I knew what I wanted users to read about him that was interesting, and possibly new. I did additional research just to brush up an specific facts and details around him so that the conent is captivating and would make readers want to read on. 
