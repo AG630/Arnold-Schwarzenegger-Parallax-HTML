@@ -139,9 +139,28 @@ The part I enjoyed the least about my project, testing the kinks and fixing the 
 
 I didn't really know where to start with this. My mentor @Harry Dhillon at the Code Institue used w3validator in his projects so I thought it was best to follow suit with the W3C CSS Validator(https://jigsaw.w3.org/css-validator/).
 
-After testomg the code and correcting the bugs, I was able to correct the mistakes in my code which presented the final product.
+After testing the code and correcting the bugs, I was able to correct the mistakes in my code which presented the final product.
 
 Least to say, there were quite a few errors in my code. A common theme throughout my code, was using the <a> element throughout where I shouldn't have.
+
+Other issues I experienced in this project includes lack of <H1 - H2> as seen on the HTML accessibility checker.
+
+![HTML Checker](<../images/Screenshot 2023-10-18 121917.png>)
+
+![HTML Checker](<../images/Screenshot 2023-10-18 121909.png>)
+
+The other issue I experienced with my HTML was the <a> element not following the suit of the <li> element. I decided to remove the list al together, and found I liked the layout of the links without bullet points.
+
+Other Error's I encountered, and had to correct are as follows:
+
+![Failed HTML](<../images/Screenshot 2023-10-02 121341.png>)
+
+
+![Failed HTML](<../images/Screenshot 2023-10-02 121349.png>)
+
+![Failed HTML](<../images/Screenshot 2023-10-02 161334.png>)
+
+![Failed HTML](<../images/Screenshot 2023-10-02 161347.png>)
 
 
 
