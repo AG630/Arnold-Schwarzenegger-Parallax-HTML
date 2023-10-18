@@ -41,6 +41,8 @@
 }
 
 .lower-navbar{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
   background-color: #333;
   overflow: hidden;
   position: fixed;
@@ -48,6 +50,15 @@
   width: 100%;
   color: #E9EFE7;
   align-items: center;
+}
+
+.socials{
+  color: #E9EFE7;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  font-size: medium;
+
 }
 small{
   color: #B77753;
