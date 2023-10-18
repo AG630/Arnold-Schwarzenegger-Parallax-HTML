@@ -150,7 +150,7 @@ The Early Life section shows a bacground image of Arnold Schwarzenegger as a you
 
 On Body building, there are a lot of options to choose from. Arnold is very famous for his body building stages in his career and due to the vast number of choices out there, I thought that including some poses would highlight his achievements.
 
-It was tough to find images of Arnold and Franco Columbo as Brick layers. There are some that users can findf themselves, but due to the pixel quality they didn't make for very good background images. Instead I wanted to contrast the colour slightly from the previous section with more black and white images, from the time-period that's described.
+It was tough to find images of Arnold and Franco Columbo as Brick layers. There are some that users can find themselves, but due to the pixel quality they didn't make for very good background images. Instead I wanted to contrast the colour slightly from the previous section with more black and white images, from the time-period that's described.
 
 Arnold's acting career was a huge one, and selecting dynamic and powerful images were what I was going for in this section. He had a macho-man persona before turning to comedy, and so I wanted to include images of that on screen 'action-man'. As the parallax scrolls, the images become higher in quality, and more recent in chronological order, which was my aim.
 
